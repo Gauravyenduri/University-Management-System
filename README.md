@@ -4,7 +4,7 @@ Student Management System
 A full-stack Student Management System built with FastAPI, SQLAlchemy, PostgreSQL, Jinja2, and HTML/CSS.
 This project aims to simplify and automate various operations for educational institutions — including student enrollment, course management, scheduling, fee payment, library management, and more.
 
-#🚀 Features
+🚀** # Features**
 Authentication & Authorization
 
 Secure login for Admin, Student, and Instructor roles
