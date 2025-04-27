@@ -121,12 +121,21 @@ Copy
 Edit
 
 app/
+
 ├── main.py             # Main FastAPI application
+
 ├── database.py         # Database session and engine
+
 ├── models.py           # SQLAlchemy models (User, Roles, etc.)
+
 ├── services/           # Authentication and business logic
+
 ├── routes/             # All route modules (auth, admin, student, etc.)
+
 ├── templates/          # Jinja2 HTML templates
+
 ├── static/             # CSS, JS, images
+
 ├── .env                # Environment variables (local)
+
 ├── requirements.txt    # Project dependencies
