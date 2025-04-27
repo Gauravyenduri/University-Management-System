@@ -4,7 +4,7 @@ Student Management System
 A full-stack Student Management System built with FastAPI, SQLAlchemy, PostgreSQL, Jinja2, and HTML/CSS.
 This project aims to simplify and automate various operations for educational institutions — including student enrollment, course management, scheduling, fee payment, library management, and more.
 
-🚀** # Features**
+# Features
 Authentication & Authorization
 
 Secure login for Admin, Student, and Instructor roles
@@ -59,7 +59,7 @@ Jinja2 templating engine
 
 Modular static files (HTML, CSS, JavaScript)
 
-#🛠️ Tech Stack
+# Tech Stack
 Backend: FastAPI, Python
 
 Frontend: Jinja2, HTML, CSS
@@ -72,7 +72,7 @@ Deployment/Server: Uvicorn ASGI server
 
 Environment Management: Python-dotenv
 
-#⚙️ Setup Instructions
+# Setup Instructions
 Clone the repository
 
 bash
@@ -113,10 +113,13 @@ Access the app
 Open your browser and visit:
 http://127.0.0.1:8000
 
-#📁 Project Structure
+# Project Structure
 bash
+
 Copy
+
 Edit
+
 app/
 ├── main.py             # Main FastAPI application
 ├── database.py         # Database session and engine
