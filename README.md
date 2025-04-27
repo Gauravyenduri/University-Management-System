@@ -75,51 +75,34 @@ Environment Management: Python-dotenv
 # Setup Instructions
 Clone the repository
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/student-management-system.git
 cd student-management-system
 Create and activate a virtual environment
 
-bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 Install dependencies
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Setup environment variables
 Create a .env file in the root directory:
 
-ini
-Copy
-Edit
+
 DEFAULT_ADMIN_USERNAME=admin
 DEFAULT_ADMIN_EMAIL=admin@example.com
 DEFAULT_ADMIN_PASSWORD=admin123
 DATABASE_URL=postgresql://yourusername:yourpassword@localhost/yourdatabase
 Run the application
 
-bash
-Copy
-Edit
+
 uvicorn app.main:app --reload
 Access the app
 Open your browser and visit:
 http://127.0.0.1:8000
 
 # Project Structure
-bash
-
-Copy
-
-Edit
-
 app/
 
 ├── main.py             # Main FastAPI application
